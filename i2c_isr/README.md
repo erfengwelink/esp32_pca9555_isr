@@ -6,15 +6,15 @@ this project just simply shows how to drive I2C interrupt function(based on esp3
 
 1>hardware:
 
-	   ESP32		         PCA9555
-	+-------+		        +-------+
-	|	    |		        |	    |
+	   ESP32		 PCA9555
+	+-------+		+-------+
+	|	|		|	|
 	| GPIO13|---------------|scl	|
 	| GPIO14|---------------|sda	|
-	| 	    |		        |	    |
+	| 	|		|	|
 	| GPIO15|---------------|~INT	|
-	|	    |		        |	    |
-	+-------+		        +-------+
+	|	|		|	|
+	+-------+		+-------+
 
 
 
